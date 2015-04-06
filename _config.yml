@@ -4,21 +4,21 @@ url: https://ninokierulf.github.io
 # Site settings
 title: Nino Nhexie Kierulf
 email: ninokierulf@gmail.com
-description: "[ntk] Site Description Here"
-intro: "[ntk]Intro Hi. Welcome. Discover"
+description: " Site Description Here"
+intro: "Intro Hi. Welcome. Discover"
 intro2: "[ntkIntro2 ]It's nice to meet you"
 blogurl: "/blog"
 
 privacy:
-  title: "[ntk]Privacy Policy"
+  title: "Privacy Policy"
   url: "/privacy_policy"
 
 terms:
-  title: "[ntk]Terms of Use"
+  title: "Terms of Use"
   url: "/terms_of_use"
 
 start: 
-  title: "[ntk]Tell Me More"
+  title: "Tell Me More"
   url: "#portfolio"
 
 # Color settings (hex-codes without the leading hash-tag)
@@ -28,7 +28,7 @@ color:
   secondary-dark: 333
 
 engage:
-  title: "[ntk]Be Part <br>Of My <br>Story!"
+  title: "Be Part <br>Of My <br>Story!"
   url: "#contact"
 
 # Team names, titles and social links
@@ -50,30 +50,30 @@ markdown: kramdown
 permalink: pretty
 
 blog:
-  title: "[ntk]Blog"
+  title: "Blog"
   description:
 
 service:
-  title: "[ntk]Services"
-  description: "[ntk]Lorem what"
+  title: "Services"
+  description: "Lorem what"
 
 portfolio:
-  title: "[ntk]Portfolio"
-  description: "[ntk]Lorem ipsum dolor sit amet consectetur."
+  title: "Portfolio"
+  description: "Lorem ipsum dolor sit amet consectetur."
 
 about:
-  title: "[ntk]About"
-  description: "[ntk]Lorem ipsum dolor sit amet consectetur."
+  title: "About"
+  description: "Lorem ipsum dolor sit amet consectetur."
 
 contact:
-  title: "[ntk]Contact Me"
-  description: "[ntk]Lorem ipsum"
-  entername: "[ntk]Your Name"
-  enternamevalidation: "[ntk]Please enter your name."
-  enteremail: "[ntk]Your Email"
-  enteremailvalidation: "[ntk]Please enter your email address."
-  enterphone: "[ntk]Your Phone"
-  enterphonevalidation: "[ntk]Please enter your phone number."
-  entermessage: "[ntk]Your Message"
-  entermessagevalidation: "[ntk]Please enter your message."
+  title: "Contact Me"
+  description: "Lorem ipsum"
+  entername: "Your Name"
+  enternamevalidation: "Please enter your name."
+  enteremail: "Your Email"
+  enteremailvalidation: "Please enter your email address."
+  enterphone: "Your Phone"
+  enterphonevalidation: "Please enter your phone number."
+  entermessage: "Your Message"
+  entermessagevalidation: "Please enter your message."
   send: "Send Message"

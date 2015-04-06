@@ -1,18 +1,18 @@
-- title: "[ntk]Blog"
+- title: "Blog"
   url: "/blog"
   isexternal: true
 
-- title: "[ntk]Services"
+- title: "Services"
   url: "#services"
 
-- title: "[ntk]Portfolio"
+- title: "Portfolio"
   url: "#portfolio"
 
-- title: "[ntk]About"
+- title: "About"
   url: "#about"
 
-- title: "[ntk]Team"
+- title: "Team"
   url: "#team"
 
-- title: "[ntk]Contact"
+- title: "Contact"
   url: "#contact"
