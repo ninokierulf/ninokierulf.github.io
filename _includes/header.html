@@ -18,20 +18,24 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
+
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a href="{{site.blogurl}}">{{ site.blog.title}}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#services">{{ site.service.title}}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#portfolio">{{ site.portfolio.title}}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="#about">{{ site.about.title}}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#team">{{ site.team.title}}</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">{{ site.contact.title}}</a>
                     </li>
                 </ul>
             </div>
@@ -44,15 +48,15 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-lead-in">{{site.intro}}</div>
+                <div class="intro-heading">{{site.intro2}}</div>
+                <a href="{{ site.start.url }}" class="page-scroll btn btn-xl">{{ site.start.title }}</a>
             </div>
         </div>
     </header>
+
 <!--
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
         {% endfor %}
  -->
-

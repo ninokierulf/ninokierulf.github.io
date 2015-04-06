@@ -4,7 +4,22 @@ url: https://ninokierulf.github.io
 # Site settings
 title: Nino Nhexie Kierulf
 email: ninokierulf@gmail.com
-description: "Hi. Welcome. Discover."
+description: "[ntk] Site Description Here"
+intro: "[ntk]Intro Hi. Welcome. Discover"
+intro2: "[ntkIntro2 ]It's nice to meet you"
+blogurl: "/blog"
+
+privacy:
+  title: "[ntk]Privacy Policy"
+  url: "/privacy_policy"
+
+terms:
+  title: "[ntk]Terms of Use"
+  url: "/terms_of_use"
+
+start: 
+  title: "[ntk]Tell Me More"
+  url: "#portfolio"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -47,6 +62,12 @@ people:
     - title: google-plus
       url: #
 
+client:
+- name: envato
+- name: designmodo
+- name: themeforest
+- name: creative-market
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
@@ -68,3 +89,61 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+blog:
+  title: "[ntk]Blog"
+  description:
+
+service:
+  title: "[ntk]Services"
+  description: "[ntk]Lorem what"
+
+services:
+- title: "[ntk]E-Commerce"
+  description: "[ntk]Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+- title: "[ntk]Responsive Design"
+  description: "[ntk]Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+- title: "[ntk]Web Security"
+  description: "[ntk]Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+portfolio:
+  title: "[ntk]Portfolio"
+  description: "[ntk]Lorem ipsum dolor sit amet consectetur."
+
+about:
+  title: "[ntk]About"
+  description: "[ntk]Lorem ipsum dolor sit amet consectetur."
+
+history:
+- date: 2009-2011
+  image: 1.jpg
+  title: "[ntk]Our Humble Beginnings"
+  description: "[ntk]Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+- date: March 2011
+  image: 2.jpg
+  title: "[ntk]An Agency is Born"
+  description: "[ntk]Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+- date: December 2012
+  image: 3.jpg
+  title: "[ntk]Transition to Full Service"
+  description: "[ntk]Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+- date: July 2014
+  image: 4.jpg
+  title: "[ntk]Phase Two Expansion"
+  description: "[ntk]Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+contact:
+  title: "[ntk]Contact Us"
+  description: "[ntk]Lorem ipsum"
+  entername: "[ntk]Your Name"
+  enternamevalidation: "[ntk]Please enter your name."
+  enteremail: "[ntk]Your Email"
+  enteremailvalidation: "[ntk]Please enter your email address."
+  enterphone: "[ntk]Your Phone"
+  enterphonevalidation: "[ntk]Please enter your phone number."
+  entermessage: "[ntk]Your Message"
+  entermessagevalidation: "[ntk]Please enter your message."
+  send: "Send Message"
