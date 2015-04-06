@@ -27,59 +27,18 @@ color:
   secondary: fec503  
   secondary-dark: 333
 
+engage:
+  title: "[ntk]Be Part <br>Of My <br>Story!"
+  url: "#contact"
+
 # Team names, titles and social links
-people:
-- name: Nino Nhexie Kierulf
-  pic: 1
-  position: Senior Software Consultant iOS
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: github
-      url: #
+# _data/people.yml
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
-client:
-- name: envato
-- name: designmodo
-- name: themeforest
-- name: creative-market
+# Clients
+# _data/client.yml
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+# _data/social.yml
 
 # Postal address (add as many lines as necessary)
 address:
@@ -98,14 +57,6 @@ service:
   title: "[ntk]Services"
   description: "[ntk]Lorem what"
 
-services:
-- title: "[ntk]E-Commerce"
-  description: "[ntk]Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-- title: "[ntk]Responsive Design"
-  description: "[ntk]Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-- title: "[ntk]Web Security"
-  description: "[ntk]Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-
 portfolio:
   title: "[ntk]Portfolio"
   description: "[ntk]Lorem ipsum dolor sit amet consectetur."
@@ -114,29 +65,8 @@ about:
   title: "[ntk]About"
   description: "[ntk]Lorem ipsum dolor sit amet consectetur."
 
-history:
-- date: 2009-2011
-  image: 1.jpg
-  title: "[ntk]Our Humble Beginnings"
-  description: "[ntk]Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-- date: March 2011
-  image: 2.jpg
-  title: "[ntk]An Agency is Born"
-  description: "[ntk]Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-- date: December 2012
-  image: 3.jpg
-  title: "[ntk]Transition to Full Service"
-  description: "[ntk]Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-- date: July 2014
-  image: 4.jpg
-  title: "[ntk]Phase Two Expansion"
-  description: "[ntk]Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
 contact:
-  title: "[ntk]Contact Us"
+  title: "[ntk]Contact Me"
   description: "[ntk]Lorem ipsum"
   entername: "[ntk]Your Name"
   enternamevalidation: "[ntk]Please enter your name."

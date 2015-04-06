@@ -1,0 +1,18 @@
+- title: "[ntk]Blog"
+  url: "https://ninokierulf.github.io"
+  isexternal: true
+
+- title: "[ntk]Services"
+  url: "#services"
+
+- title: "[ntk]Portfolio"
+  url: "#portfolio"
+
+- title: "[ntk]About"
+  url: "#about"
+
+- title: "[ntk]Team"
+  url: "#team"
+
+- title: "[ntk]Contact"
+  url: "#contact"
