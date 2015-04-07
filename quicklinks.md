@@ -15,7 +15,6 @@ title: Quick Links
 [ninokierulf.io] > [Blog]
 
 
-
 [Life]: https://github.com/ninokierulf/Life
 [Milestones]: https://github.com/ninokierulf/Life/milestones
 [Issue List]: https://github.com/ninokierulf/Life/issues
