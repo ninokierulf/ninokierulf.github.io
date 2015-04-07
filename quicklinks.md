@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: simple
 permalink: /quicklinks/index.html
 title: Quick Links
 
@@ -13,7 +13,6 @@ title: Quick Links
   
 #### Personal
 [ninokierulf.io] > [Blog]
-
 
 
 
