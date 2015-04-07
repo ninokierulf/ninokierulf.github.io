@@ -1,3 +1,10 @@
+---
+layout: simple
+permalink: /quicklinks/index.html
+title: Quick Links
+
+---
+
 ## Quick Links
 
 #### GitHub
