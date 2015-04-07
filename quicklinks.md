@@ -1,5 +1,5 @@
 ---
-layout: simple
+layout: default
 permalink: /quicklinks/index.html
 title: Quick Links
 
