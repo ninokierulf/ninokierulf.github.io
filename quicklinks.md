@@ -12,7 +12,8 @@ title: Quick Links
 [Neural Overload]
   
 #### Personal
-[ninokierulf.io] > [Blog]
+[ninokierulf.io] > [Blog] > [Archive]  
+
 
 [Repo]: https://github.com/ninokierulf?tab=repositories
 [Life]: https://github.com/ninokierulf/Life  
@@ -22,3 +23,4 @@ title: Quick Links
 [Neural Overload]: https://github.com/ninokierulf/NeuralOverload  
 [ninokierulf.io]: https://ninokierulf.github.io  
 [Blog]: https://ninokierulf.github.io/blog  
+[Archive]: http://ninokierulf.github.io/blog/archive/  
