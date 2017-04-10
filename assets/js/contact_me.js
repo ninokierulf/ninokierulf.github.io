@@ -24,10 +24,11 @@ $(function() {
                 url: "//formspree.io/ninokierulf@gmail.com",
                 type: "POST",
                 data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
+                    name:name,
+                _replyto:email,
+                 email:email,
+                message:message,
+                _subject:'ninokierulf.github.io Contact Submission',
                 },
                 dataType: "json"
                 cache: false,
