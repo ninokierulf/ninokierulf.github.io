@@ -1,6 +1,11 @@
-- title: "[ntk1]E-Commerce"
-  description: "[ntk]Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-- title: "[ntk1]Responsive Design"
-  description: "[ntk]Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-- title: "[ntk1]Web Security"
-  description: "[ntk]Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+- name: "E-Commerce"
+  icon: "shopping-cart"
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+- name: "Responsive Design"
+  icon: "laptop"
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+- name: "Web Security"
+  icon: "lock"
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."

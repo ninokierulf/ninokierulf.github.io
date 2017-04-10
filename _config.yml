@@ -1,79 +1,34 @@
-url: https://ninokierulf.github.io
-#baseurl: /agency-jekyll-theme/
+# Welcome to Agency Jekyll Theme!
+
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
+language: en
 title: Nino Nhexie Kierulf
 email: ninokierulf@gmail.com
-description: " Site Description Here"
-intro: "Intro Hi. Welcome. Discover"
-intro2: "[ntkIntro2 ]It's nice to meet you"
-blogurl: "/blog"
-
-privacy:
-  title: "Privacy Policy"
-  url: "/privacy_policy"
-
-terms:
-  title: "Terms of Use"
-  url: "/terms_of_use"
-
-start: 
-  title: "Tell Me More"
-  url: "#portfolio"
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: fed136
-  secondary: fec503  
-  secondary-dark: 333
-
-engage:
-  title: "Be Part <br>Of My <br>Story!"
-  url: "#contact"
-
-# Team names, titles and social links
-# _data/people.yml
-
-# Clients
-# _data/client.yml
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-# _data/social.yml
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: In the land of the merlion
-  - line: Singapore
+description: > # this means to ignore newlines until "author:"
+  [ntk]Site Description Here
+author: ninokierulf
+keyword: apple ios developer singapore 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://ninokierulf.github.io
+github_username:  ninokierulf
+copyright: Copyright &copy; Nino Nhexie Kierulf 2017
 
 # Build settings
+
 markdown: kramdown
-permalink: pretty
+#permalink: pretty
 
-blog:
-  title: "Blog"
-  description:
+#theme: agency-jekyll-theme #The "agency-jekyll-theme" is not supported by GitHub Pages. 
 
-service:
-  title: "Services"
-  description: "Lorem what"
-
-portfolio:
-  title: "Portfolio"
-  description: "Lorem ipsum dolor sit amet consectetur."
-
-about:
-  title: "About"
-  description: "Lorem ipsum dolor sit amet consectetur."
-
-contact:
-  title: "Contact Me"
-  description: "Lorem ipsum"
-  entername: "Your Name"
-  enternamevalidation: "Please enter your name."
-  enteremail: "Your Email"
-  enteremailvalidation: "Please enter your email address."
-  enterphone: "Your Phone"
-  enterphonevalidation: "Please enter your phone number."
-  entermessage: "Your Message"
-  entermessagevalidation: "Please enter your message."
-  send: "Send Message"
+gems:
+  - jekyll-feed
+exclude:
+  - agency-jekyll-theme.gemspec
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png

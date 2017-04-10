@@ -1,0 +1,73 @@
+
+# Nav
+blog:
+  title: "!Blog"
+  title_nav: "!Blog"
+  description: "Nino's Blog"
+  url: "/blog"
+
+service:
+  title: "!Services"
+  title_nav: "!Services"
+  description: "Services I can provide"
+  url: "#services"
+
+portfolio:
+  title: "!Portfolio"
+  title_nav: "!Portfolio"
+  description: "My Portfolio"
+  url: "#portfolio"
+
+about:
+  title: "!About"
+  title_nav: "!About"
+  description: "I'm amazing"
+  url: "#about"
+
+team:
+  title: "!OUR AMAZING TEAM"
+  title_nav: "!Team"
+  description: "They are great"
+  url: "#team"
+  footer: "!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+contact:
+  title_nav: "!Contact Me"
+  title: "!Contact Me"
+  description: "Don't be shy"
+  url: "#contact"
+  input:
+    name: 
+      title: "Your Name"
+      validation: "Please enter your name."
+    email:
+      title: "Your Email"
+      validation: "Please enter your email address."
+    phone:
+      title: "Your Phone"
+      validation: "Please enter your phone number."
+    message:
+      title: "Your Message"
+      validation: "Please enter your message."
+  send: "Send Message"
+
+
+
+
+hero:
+  intro: "[ntk]Welcome To Our Studio!"
+  intro2: "[ntk]It's Nice To Meet You"
+  more: "[ntk]Tell Me More"
+  url: "#services"
+
+engage:
+  title: "!Be Part <br>Of My <br>Story!"
+  url: "#contact"
+
+privacy:
+  title: "!Privacy Policy"
+  url: "#"
+
+terms:
+  title: "!Terms of Use"
+  url: "#"

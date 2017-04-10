@@ -1,0 +1,41 @@
+<!-- Navigation -->
+<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">{{ site.title }}</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a href="{{ site.data.render.blog.url }}">{{ site.data.render.blog.title_nav }}</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{ site.data.render.service.url }}">{{ site.data.render.service.title_nav }}</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{ site.data.render.portfolio.url }}">{{ site.data.render.portfolio.title_nav }}</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{ site.data.render.about.url }}">{{ site.data.render.about.title_nav }}</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{ site.data.render.team.url }}">{{ site.data.render.team.title_nav }}</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{ site.data.render.contact.url }}">{{ site.data.render.contact.title_nav }}</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
