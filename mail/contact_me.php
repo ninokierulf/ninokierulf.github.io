@@ -695,7 +695,7 @@
       </tr>
       <tr>
         <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-smi">$to</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>yourname@yourdomain.com<span class="pl-pds">&#39;</span></span>; <span class="pl-c">// Add your email address inbetween the &#39;&#39; replacing yourname@yourdomain.com - This is where the form will send a message to.</span></span></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-smi">$to</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>ninokierulf@gmail.com<span class="pl-pds">&#39;</span></span>; <span class="pl-c">// Add your email address inbetween the &#39;&#39; replacing yourname@yourdomain.com - This is where the form will send a message to.</span></span></td>
       </tr>
       <tr>
         <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
