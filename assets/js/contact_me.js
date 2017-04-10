@@ -22,17 +22,18 @@ $(function() {
             
             $.ajax({
                 url: "//formspree.io/ninokierulf@gmail.com",
-                type: "POST",
+                method: "POST",
                 data: {
                     name:name,
-                _replyto:email,
-                 email:email,
-                message:message,
-                _subject:'ninokierulf.github.io Contact Submission',
+					phone: phone,
+					email:email,
+					message:message,
+					_subject:'ninokierulf.github.io Contact Submission'
+					_replyto:email,
                 },
                 dataType: "json"
                 cache: false,
-                success: function() {
+                success: function(data) {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -45,7 +46,7 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
-                error: function() {
+                error: function(err) {
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -55,7 +56,7 @@ $(function() {
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
-            });
+            })
         },
         filter: function() {
             return $(this).is(":visible");
