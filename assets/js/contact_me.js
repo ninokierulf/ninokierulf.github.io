@@ -21,7 +21,7 @@ $(function() {
             }
             
             $.ajax({
-                url: "//formspree.io/ninokierulf@email.com",
+                url: "//formspree.io/ninokierulf@gmail.com",
                 type: "POST",
                 data: {
                     name: name,
