@@ -2,7 +2,7 @@
 
 $(function() {
 
-    $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
+    $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
@@ -13,6 +13,7 @@ $(function() {
             var name = $("input#name").val();
             var email = $("input#email").val();
             var phone = $("input#phone").val();
+			var gotcha = $("input#_gotcha").val();
             var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
@@ -24,14 +25,15 @@ $(function() {
                 url: "//formspree.io/ninokierulf@gmail.com",
                 method: "POST",
                 data: {
-                    name:name,
+                    name: name,
 					phone: phone,
-					email:email,
-					message:message,
-					_subject:'ninokierulf.github.io Contact Submission'
-					_replyto:email,
+					email: email,
+					message: message,
+					_subject: 'ninokierulf.github.io Contact Submission',
+					_replyto: email,
+					_gotcha: gotcha
                 },
-                dataType: "json"
+                dataType: "json",
                 cache: false,
                 success: function(data) {
                     // Success message
