@@ -1,57 +1,10 @@
-<!-- Contact Section -->
-<!-- 
-<section id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{ site.data.render.contact.title }}</h2>
-                <h3 class="section-subheading text-muted">{{ site.data.render.contact.description }}</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <form name="sentMessage" id="contactForm">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="{{ site.data.render.contact.input.name.title }}" id="name" required data-validation-required-message="{{ site.data.render.contact.input.name.validation }}">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" placeholder="{{ site.data.render.contact.input.email.title }}" id="email" required data-validation-required-message="{{ site.data.render.contact.input.email.validation }}">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <input type="tel" class="form-control" placeholder="{{ site.data.render.contact.input.phone.title }}" id="phone" required data-validation-required-message="{{ site.data.render.contact.input.phone.validation }}">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <textarea class="form-control" placeholder="{{ site.data.render.contact.input.message.title }}" id="message" required data-validation-required-message="{{ site.data.render.contact.input.message.validation }}"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="col-lg-12 text-center">
-                            <div id="success"></div>
-                            <button type="submit" class="btn btn-xl">{{ site.data.render.contact.send }}</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
- -->
-
 <section id="contact">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Contact me</h2>
+        <h2 class="section-heading">{{ site.data.render.contact.title }}</h2>
         <h3 class="section-subheading text-muted" style="color:white;">
-	  I look forward to hearing from you
+	  {{ site.data.render.contact.description }}
 	</h3>
       </div>
     </div>
@@ -64,8 +17,8 @@
 		<div class="input-group">
 		<span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
                 <input type="text" class="form-control"
-                placeholder="Your Name *" id="name" required
-                data-validation-required-message="Please enter your name.">
+                placeholder="{{ site.data.render.contact.input.name.title }}" id="name" required
+                data-validation-required-message="{{ site.data.render.contact.input.name.validation }}">
                 <p class="help-block text-danger"></p>
 		</div>
               </div>
@@ -73,8 +26,8 @@
 		<div class="input-group">
 		<span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
                 <input type="email" class="form-control"
-                placeholder="Your Email *" id="email" required
-                data-validation-required-message="Please enter your email address.">
+                placeholder="{{ site.data.render.contact.input.email.title }}" id="email" required
+                data-validation-required-message="{{ site.data.render.contact.input.email.validation }}">
                 <p class="help-block text-danger"></p>
 		</div>
               </div>
@@ -83,9 +36,9 @@
 		<span class="input-group-addon"><i class="fa fa-phone fa-fw"></i></span>
                 <input type="tel"
 		       class="form-control"
-		       placeholder="Your Phone *"
+		       placeholder="{{ site.data.render.contact.input.phone.title }}"
 		       id="phone" required
-		       data-validation-required-message="Please enter your phone number.">
+		       data-validation-required-message="{{ site.data.render.contact.input.phone.validation }}">
 		<input type="text" id="_gotcha" style="display:none" />
                 <p class="help-block text-danger"></p>
 		</div>
@@ -94,16 +47,16 @@
             <div class="col-md-6">
               <div class="form-group">
                 <textarea class="form-control"
-			  placeholder="Your Message *" id="message"
+			  placeholder="{{ site.data.render.contact.input.message.title }}" id="message"
 			  required
-			  data-validation-required-message="Please enter a message."></textarea>
+			  data-validation-required-message="{{ site.data.render.contact.input.message.validation }}"></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="clearfix"></div>
             <div class="col-lg-12 text-center">
               <div id="success"></div>
-              <button type="submit" class="btn btn-xl">Send Message</button>
+              <button type="submit" class="btn btn-xl">{{ site.data.render.contact.send }}</button>
             </div>
           </div>
         </form>

@@ -34,7 +34,7 @@ team:
 contact:
   title_nav: "!Contact Me"
   title: "!Contact Me"
-  description: "Don't be shy"
+  description: "Don't be shy" #I look forward to hearing from you
   url: "#contact"
   input:
     name: 
