@@ -1,27 +1,32 @@
-- name: "Our Humble Beginnings"
+- name: "B.S. Computer Science"
   image: "1.jpg"
   img-alt: "image description"
-  year: "2009-2011"
-  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  year: "Saint Louis University, PH"
+  text: "Consecutive dean's lister.<br>
+         High marks in programming."
   side: left
 
-- name: "An Agency is Born"
+- name: "Software Programmer"
   image: "2.jpg"
   img-alt: "image description"
-  year: "March 2011"
-  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  year: "Heulab Pte Ltd, Singapore"
+  text: "Jan 2011 to Dec 2013, 3 years<br>
+         Developing iOS applications that are used throughout schools in Singapore."
   side: right
 
-- name: "Transition to Full Service"
+- name: "Software Engineer"
   image: "3.jpg"
   img-alt: "image description"
-  year: "December 2012"
-  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  year: "CompIT Consultants Pte Ltd, SG"
+  text: "Working with Singtel - Singapore's telco company, developing mobile applications for consumers to consume media contents<br>
+         Feb 2014, 1 year<br>
+         then absorbed by Singtel's IT company.<br>"
   side: left
 
-- name: "Phase Two Expansion"
+- name: "Senior Application Consultant"
   image: "4.jpg"
   img-alt: "image description"
-  year: "July 2014"
-  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  year: "NCS Pte Ltd / Singtel"
+  text: "Singtel's sister company<br>
+         Developing iOS and tvOS applications"
   side: right

@@ -21,7 +21,7 @@ portfolio:
 about:
   title: "Experience"
   title_nav: "Experience"
-  description: "I'm amazing"
+  description: ""
   url: "#about"
 
 team:
@@ -62,7 +62,7 @@ hero:
   url: "#about"
 
 engage:
-  title: "!Be Part <br>Of My <br>Story!"
+  title: "Be Part <br>Of My <br>Story!"
   url: "#contact"
 
 privacy:
