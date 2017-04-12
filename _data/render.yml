@@ -7,7 +7,7 @@ blog:
   url: "/blog"
 
 service:
-  title: "I AM"
+  title: ""
   title_nav: "I AM"
   description: ""
   url: "#services"
@@ -25,16 +25,16 @@ about:
   url: "#about"
 
 team:
-  title: "!OUR AMAZING TEAM"
-  title_nav: "Team"
-  description: ""
+  title: "Tools"
+  title_nav: "Tools"
+  description: "Technologies, Ideas in my toolset"
   url: "#team"
-  footer: "!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+  footer: "Plus a whole lot more..."
 
 contact:
-  title_nav: "!Contact Me"
-  title: "!Contact Me"
-  description: "Don't be shy" #I look forward to hearing from you
+  title_nav: "Contact Me"
+  title: "Contact Me"
+  description: "I look forward to hearing from you"
   url: "#contact"
   input:
     name: 
@@ -55,11 +55,12 @@ contact:
 
 
 hero:
-  intro: "Mobile Developer | iOS"
+  intro: "iOS | Mobile Developer "
   intro2: "Nino Nhexie Kierulf"
+  experience: " years"
   more: "[ntk]Tell Me More"
   more_icon: "caret-down" #"angle-down"
-  url: "#about"
+  url: "#portfolio"
 
 engage:
   title: "Be Part <br>Of My <br>Story!"

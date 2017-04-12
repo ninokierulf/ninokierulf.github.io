@@ -4,11 +4,14 @@
     <div class="container">
         <div class="intro-text">
             <div class="intro-heading">{{ site.data.render.hero.intro2 }}</div>
-            <div class="intro-lead-in">{{ site.data.render.hero.intro }}</div>
+            <div class="intro-lead-in">
+                {{ site.data.render.hero.intro }} | 
+                    {% assign curr_year = site.time | date: '%Y' %}
+                    {% assign total_exp = curr_year | minus: site.start_year %}   
+                    {{ total_exp }}{{ site.data.render.hero.experience }}</div>
+
             
             <a href="{{ site.data.render.hero.url }}" class="page-scroll btn btn-xl">
-            	<!-- {{ site.data.render.hero.more }} -->
-            	<!-- <i class="fa fa-{{ service.icon }} fa-stack-1x fa-inverse"></i> -->
             	<i class="fa fa-{{ site.data.render.hero.more_icon }} fa-3x"></i>
             </a>
         </div>
