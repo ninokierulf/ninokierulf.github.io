@@ -7,9 +7,9 @@ blog:
   url: "/blog"
 
 service:
-  title: ""
+  title: "I'M"
   title_nav: "I AM"
-  description: "I'M"
+  description: ""
   url: "#services"
 
 portfolio:
