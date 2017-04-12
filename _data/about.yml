@@ -2,7 +2,8 @@
   image: "1.jpg"
   img-alt: "image description"
   year: "Saint Louis University, PH"
-  text: "Consecutive dean's lister.<br>
+  text: "2006 - 2010<br>
+         Consecutive dean's lister.<br>
          High marks in programming."
   side: left
 
@@ -27,6 +28,8 @@
   image: "4.jpg"
   img-alt: "image description"
   year: "NCS Pte Ltd / Singtel"
-  text: "Singtel's sister company<br>
-         Developing iOS and tvOS applications"
+  text: "Feb 2015 to current<br>
+         Developing iOS and tvOS applications<br>
+         Collaborating with AIS to develop an entertainment app for their customers<br>
+         "
   side: right
