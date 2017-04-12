@@ -1,33 +1,33 @@
 
 # Nav
 blog:
-  title: "!Blog"
-  title_nav: "!Blog"
+  title: "Blog"
+  title_nav: "Blog"
   description: "Nino's Blog"
   url: "/blog"
 
 service:
-  title: "!Services"
-  title_nav: "!Services"
-  description: "Services I can provide"
+  title: "I AM"
+  title_nav: "I AM"
+  description: ""
   url: "#services"
 
 portfolio:
-  title: "!Portfolio"
-  title_nav: "!Portfolio"
-  description: "My Portfolio"
+  title: "Portfolio"
+  title_nav: "Portfolio"
+  description: "Projects I have worked on"
   url: "#portfolio"
 
 about:
-  title: "!About"
-  title_nav: "!About"
+  title: "Experience"
+  title_nav: "Experience"
   description: "I'm amazing"
   url: "#about"
 
 team:
   title: "!OUR AMAZING TEAM"
-  title_nav: "!Team"
-  description: "They are great"
+  title_nav: "Team"
+  description: ""
   url: "#team"
   footer: "!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
@@ -55,10 +55,11 @@ contact:
 
 
 hero:
-  intro: "[ntk]Welcome To Our Studio!"
-  intro2: "[ntk]It's Nice To Meet You"
+  intro: "Mobile Developer | iOS"
+  intro2: "Nino Nhexie Kierulf"
   more: "[ntk]Tell Me More"
-  url: "#services"
+  more_icon: "caret-down" #"angle-down"
+  url: "#about"
 
 engage:
   title: "!Be Part <br>Of My <br>Story!"

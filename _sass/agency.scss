@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     border-radius: 3px;
     font-size: 18px;
-    padding: 20px 40px;
+    padding: 0px 40px;
 }
 
 // Custom Navigation Bar
@@ -175,21 +175,21 @@ header {
     text-align: center;
     color: white;
     .intro-text {
-        padding-top: 100px;
-        padding-bottom: 50px;
+        padding-top: 150px;
+        padding-bottom: 150px;
         .intro-lead-in {
             @include serif-font;
             font-style: italic;
             font-size: 22px;
             line-height: 22px;
-            margin-bottom: 25px;
+            margin-bottom: 40px;
         }
         .intro-heading {
             @include heading-font;
             font-weight: 700;
             font-size: 50px;
             line-height: 50px;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
         }
     }
 }
@@ -197,21 +197,21 @@ header {
 @media(min-width:768px) {
     header {
         .intro-text {
-            padding-top: 300px;
-            padding-bottom: 200px;
+            padding-top: 400px;
+            padding-bottom: 400px;
             .intro-lead-in {
                 @include serif-font;
                 font-style: italic;
                 font-size: 40px;
                 line-height: 40px;
-                margin-bottom: 25px;
+                margin-bottom: 75px;
             }
             .intro-heading {
                 @include heading-font;
                 font-weight: 700;
                 font-size: 75px;
                 line-height: 75px;
-                margin-bottom: 50px;
+                margin-bottom: 20px;
             }
         }
     }
