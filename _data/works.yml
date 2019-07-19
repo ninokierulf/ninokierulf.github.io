@@ -1,4 +1,23 @@
 - order: 001
+  name: "Cast tvOS"
+  category: "Apple TV"
+  date: "2018"
+  client: "Singtel"
+  web: "https://cast.singtel.com"
+  photo: "cast-tvos.png"
+  img-alt: "Cast tvOS app"
+  id: "portfolioModal00"
+  description: "Cast "
+  claim: "for Apple TV"
+  call-to-action: "Sole Developer of Apple tv for Cast.
+    <br>Gathering requirements from Singtel Product Manager.
+    <br>Collaborated with UX team to deliver a beautiful and functional experience for end users.
+    <br>Meeting with Apple for their feedback.
+    <br>Secure streaming with Fairplay implementation
+    <br>Learned swift language and Apple Tv development along the way.
+    <br>Delivered with a tight timeline."
+
+- order: 002
   name: "Singtel Go"
   category: "Apple TV"
   date: "January 2017"
@@ -17,7 +36,7 @@
     <br>Learned swift language and Apple Tv development along the way.
     <br>Delivered with a tight timeline."
 
-- order: 002
+- order: 003
   name: "AIS Play"
   category: "iPhone, iPad"
   date: "2015 - 2016"
@@ -33,7 +52,7 @@
     <br>Flying to Thailand for support.
     <br>Keeping up with constant change of requirements"
 
-- order: 003
+- order: 004
   name: "AIS On Air"
   category: "Football"
   date: "2014"
@@ -46,7 +65,7 @@
   claim: "Football"
   call-to-action: "Lead iOS developer"
 
-- order: 004
+- order: 005
   name: "Telkomsel Bola Samba"
   category: "Worldcup"
   date: "2014"
@@ -59,7 +78,7 @@
   claim: "Worldcup"
   call-to-action: "Sole iOS developer"
 
-- order: 005
+- order: 006
   name: "HeuX School"
   category: "Education"
   date: "2013"
@@ -72,7 +91,7 @@
   claim: "Education"
   call-to-action: "Worked on multiple mobile applications that work together to enable teachers to really engage with students"
 
-- order: 006
+- order: 007
   name: "HeuX"
   category: "Learning"
   date: "2012"
